@@ -15,8 +15,10 @@ options:
 schema:
   garmin_user: str
   garmin_pass: password
+  garmin_option: str
 environment:
   GARMIN_USER: "{{ options.garmin_user }}"
   GARMIN_PASS: "{{ options.garmin_pass }}"
+  GARMIN_OPTION: "{{ options.garmin_option }}"
 map:
   - addon_config:rw
