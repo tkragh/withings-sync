@@ -4,6 +4,10 @@ slug: withings_sync
 description: Sync Withings blood pressure to Garmin with status reporting
 startup: services
 boot: manual
+arch:
+  - amd64
+  - armv7
+  - aarch64
 options:
   garmin_user: ""
   garmin_pass: ""
