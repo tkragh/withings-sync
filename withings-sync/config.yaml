@@ -1,6 +1,6 @@
 name: Withings → Garmin Sync
 version: "1.1"
-slug: withings_sync
+slug: withings-sync
 description: Sync Withings blood pressure to Garmin with status reporting
 startup: services
 boot: manual
@@ -11,6 +11,7 @@ arch:
 options:
   garmin_user: ""
   garmin_pass: ""
+  garmin_option: ""
 schema:
   garmin_user: str
   garmin_pass: password
