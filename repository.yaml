@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Thomas Kraghs Home Assistant Add-ons
+url: 'https://github.com/tkragh/withings-sync'
+maintainer: Thomas Kragh
